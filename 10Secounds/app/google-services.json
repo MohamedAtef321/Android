@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "505458962007",
+    "project_id": "seconds-ad419",
+    "storage_bucket": "seconds-ad419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505458962007:android:e54b545a96d6091b157d12",
+        "android_client_info": {
+          "package_name": "com.anubix.tensecounds"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505458962007-s2bra3brjd8a08bn5huv7ef2kcb6rovb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anubix.tensecounds",
+            "certificate_hash": "d795cec5c8840a60f28356abbbb6048de21de74f"
+          }
+        },
+        {
+          "client_id": "505458962007-mn5ua6rshcsnq076fogup77uk544lg5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGC3ly338exDOa82kIGY-Kymzh7_8b5-E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505458962007-mn5ua6rshcsnq076fogup77uk544lg5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

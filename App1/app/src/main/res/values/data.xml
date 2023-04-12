@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="user_id_data" translatable="false">12345</string>
+    <string name="name_data" translatable="false">Mohamed Atef</string>
+    <string name="sign_in_date_data" translatable="false">2021-1-21</string>
+    <drawable name="user_card"></drawable>
+</resources>

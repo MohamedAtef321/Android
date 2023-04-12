@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30sp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/ten_seconds_logo"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            app:srcCompat="@drawable/ten_seconds_logo"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/email_hint"
+            android:layout_marginTop="30dp"
+            android:inputType="text"
+            android:layout_marginHorizontal="40dp"
+            android:paddingHorizontal="10dp"
+            android:visibility="gone"
+            tools:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="@string/password_hint"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:layout_marginHorizontal="40dp"
+            android:paddingHorizontal="10dp"
+            android:visibility="gone"
+            tools:visibility="gone"/>
+
+        <Button
+            android:id="@+id/sign_in_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:onClick="sign_up_button_clicked"
+            android:visibility="gone"
+            tools:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pre_sign"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:onClick="sign_up_button_clicked"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Rich</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="userid">User ID:</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter User ID</string>
+    <string name="still_not_signed">Still not have one! sign in with your google account to get yours :</string>
+    <string name="bottom_title">Rich app</string>
+    <string name="your_user_id">Your user ID:</string>
+    <string name="name">Name:</string>
+    <string name="sign_in_date">Sign in Date:</string>
+    <string name="back">Back</string>
+    <string name="the_profile_of">The profile of</string>
+    <string name="name_hint">Enter your name</string>
+    <string name="upload_image_text">Upload your photo by clicking on the image below</string>
+    <string name="submit_button">Submit</string>
+    <string name="no_data">There is no data</string>
+
+</resources>

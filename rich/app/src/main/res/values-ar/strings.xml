@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ريتش</string>
+    <string name="username">اسم المستخدم:</string>
+    <string name="password">كلمة المرور:</string>
+    <string name="userid">رقم الID:</string>
+    <string name="search">ابحث</string>
+    <string name="search_hint">أدخل ID المستخدم</string>
+    <string name="still_not_signed">لا تملك واحدا! سجل الآن بواسطة حساب جوجل و أحصل على الID الخاص بك :</string>
+    <string name="bottom_title">تطبيق ريتش</string>
+    <string name="your_user_id">رقم الID الخاص بك:</string>
+    <string name="name">الاسم:</string>
+    <string name="sign_in_date">تاريخ التسجيل:</string>
+    <string name="back">عودة</string>
+    <string name="the_profile_of">الصفحة الشخصية الخاصة بـ</string>
+    <string name="name_hint">أدخل اسمك</string>
+    <string name="upload_image_text">قم برفع صورتك بالضغط على الصورة التالية</string>
+    <string name="submit_button">إرسال</string>
+</resources>
